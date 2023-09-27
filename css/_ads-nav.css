@@ -1,0 +1,28 @@
+.custom-fit-content-img img{
+    width: 100%;
+    height:-webkit-fill-available;
+
+}
+/* {
+    احتمالا fit-content ساپورت نمیشه در این مرورگر از این ولیو استفاده شد
+} */    
+
+@media (max-width:992px) and (min-width:770px){
+ .custom-fix{
+    flex:0 0 31.6% !important ;
+    max-width:31.6% !important ;
+    margin-top: 30px;
+}
+ .img-fix{
+    width:230px !important;
+    margin-right: -16px !important;
+    
+ }
+}
+@media (max-width:770px){
+    .img-sm-fix{
+    height:190px !important;
+    margin-bottom:-40px;
+    margin-top: 50px;
+    }
+}

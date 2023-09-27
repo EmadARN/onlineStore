@@ -1,0 +1,246 @@
+.custom-nav-tabs > .nav-item > .nav-link {
+  border: none !important;
+  border-radius: unset !important;
+}
+.custom-nav-tabs {
+  border-bottom: none !important;
+}
+.custom-nav-tabs > .nav-item > .nav-link:focus {
+  outline: 0 !important;
+  border-color: transparent !important;
+}
+
+.custome-icon-star > i {
+  color: goldenrod;
+  font-size: 14px;
+}
+.offer-price{
+  white-space: nowrap;
+}
+.offer-price s {
+  color: red;
+  font-size: 14px;
+}
+.count-down-timer > p {
+  animation: rotat 0.8s linear infinite;
+  color: rgb(192, 145, 28);
+  font-size: 17px;
+  white-space: nowrap;
+}
+@keyframes rotat {
+  0% {
+    transform: rotatey(15deg);
+  }
+  100% {
+    transform: rotatey(-15deg);
+  }
+}
+.count-down-timer span {
+  background-color: #efefef;
+  margin: 10px;
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  border-radius: 50%;
+}
+.count-down-timer #demo #houres,
+.count-down-timer #demo #minutes,
+.count-down-timer #demo #seconds {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.offer-text {
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.offer-text-inner {
+  padding: 10px;
+  font-size: 15px;
+}
+#houres,
+#minutes,
+#seconds {
+  position: relative;
+}
+#demo #houres::after {
+  content: "ساعت";
+  position: absolute;
+  top: 37px;
+  left: 0;
+}
+
+#demo #minutes::after {
+  content: "دقیقه";
+  position: absolute;
+  top: 37px;
+  left: 4px;
+}
+#demo #seconds::after {
+  content: "ثانیه";
+  position: absolute;
+  top: 37px;
+  left: 4px;
+}
+.offer-product-image{
+  max-height:230px;
+  overflow: hidden;
+
+}
+.offer-product-image img{
+  max-width: 200px;
+}
+
+.offer-product-image:hover .first-img ,.offer-product-image:hover .second-img{
+  transform: translateY(-230px);
+}
+.offer-product-image .first-img,.second-img{
+  transition: 1s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.tab-box-shadow{
+  box-shadow: 0 0 1px 1px #efefef ;
+  z-index: 1;
+}
+.offer-titel{
+  font-size: 20px;
+  right:25px;
+  top: 5px;
+  position: relative;
+
+}
+
+.offer-titel p{
+  color: rgb(227, 171, 27);
+  animation: offtitle .5s ease infinite 
+}
+@keyframes offtitle {
+  0% {
+    transform: rotatey(15deg);
+  }
+  100% {
+    transform: rotatey(-15deg);
+  }
+}
+.offer-titel ::before{
+  position:absolute;
+  content: '';
+  border-radius: 0;
+  top: 30px;
+  right: -5px;
+  animation: bord1 .5s ease-in-out infinite;
+}
+
+.offer-titel ::after{
+  position:absolute;
+  content: '';
+  border-radius: 0;
+  top: 30px;
+  right: -5px;
+  animation: bord2 .5s ease-in-out infinite  ;
+}
+@keyframes bord1 {
+  0%{
+    
+    width: 2px;
+    height: 100px;
+    background-color: red;
+  }
+  100%{
+    transform: translateY(-100px);
+  }
+
+  
+}
+@keyframes bord2 {
+  0%{
+    width: 4px;
+  height: 2px;
+  background-color: rgb(192, 145, 28);
+  }
+  100%{
+    width: 165px;
+  }
+
+  
+}
+
+.backward-search {
+  width: 40px;
+  border-radius: 100%;
+  height: 40px;
+  background-color:#17a2b8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  top: 660px;
+  right: 55px;
+  
+}
+.backward-search{
+  z-index: 50;
+  
+}
+.backward-search i{
+  color: white;
+}
+.backward-search i:hover {
+  animation: shadow .7s linear infinite;
+ 
+  border-radius: 100%;
+  
+}
+@keyframes shadow {
+  0% {
+    box-shadow: 0 0 0 0 rgba(23, 162, 184,.2),
+      0 0 0 10px rgba(23, 162, 184,.2), 0 0 0 15px rgba(23, 162, 184,.2),
+      0 0 0 20px rgba(23, 162, 184,.2);
+  }
+  50%{
+    box-shadow: 0 0 0 3px rgba(23, 162, 184,.2),
+      0 0 0 12px rgba(23, 162, 184,.2), 0 0 0 18px rgba(23, 162, 184,.2),
+      0 0 0 23px rgba(23, 162, 184,.2);
+  }
+  100% {
+    box-shadow: 0 0 0 5px rgba(23, 162, 184,.2),
+      0 0 0 15px rgba(23, 162, 184,.2), 0 0 0 20px rgba(23, 162, 184,.2),
+      0 0 0 26px rgba(23, 162, 184, .2);
+  }
+}
+@media (max-width:1345px){
+  .backward-search{
+    display: none;
+  }
+}
+@media (min-width:766px) and (max-width:992px){
+  .custom-media{
+    margin: 20px  !important;
+  }
+  
+}
+@media (max-width:465px){
+  .custom-media1{
+    padding-left: 170px !important;
+    margin-right: 60px !important;
+  
+  }
+  .custom-media{
+    margin-left:80px !important;
+  
+  }
+    .second-img1{
+      max-width: 150px !important;
+      margin-right:30px !important ;
+    }
+  .custom-nav-tabs{
+    padding-right: 0px!important;
+    font-size: 12px !important;
+  }
+  .offer-titel{
+    margin-top: -5px !important;
+  }
+  }

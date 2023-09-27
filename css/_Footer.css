@@ -1,0 +1,171 @@
+.custom-margin-top-container {
+  margin-top: 120px;
+}
+.new-latters {
+  margin-top: -67px;
+}
+/* .footer{
+   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1506' height='378' preserveAspectRatio='none' viewBox='0 0 1506 378'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1956%26quot%3b)' fill='none'%3e%3cpath d='M1037.504%2c228.877C1055.589%2c228.719%2c1072.199%2c219.396%2c1081.541%2c203.91C1091.215%2c187.874%2c1092.606%2c168.265%2c1084.147%2c151.556C1074.772%2c133.04%2c1058.246%2c117.633%2c1037.504%2c116.932C1015.701%2c116.195%2c995.08%2c128.829%2c985.058%2c148.206C975.715%2c166.27%2c981.031%2c187.639%2c992.116%2c204.69C1002.131%2c220.095%2c1019.131%2c229.037%2c1037.504%2c228.877' fill='rgba(215%2c 215%2c 215%2c 0.89)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M566.29%2c292.046C581.031%2c292.107%2c597.313%2c290.916%2c605.266%2c278.504C613.694%2c265.35%2c610.633%2c248.438%2c602.943%2c234.84C595.115%2c220.997%2c582.191%2c209.836%2c566.29%2c209.58C549.998%2c209.318%2c535.499%2c219.411%2c527.537%2c233.627C519.759%2c247.516%2c519.07%2c264.917%2c527.87%2c278.183C535.936%2c290.343%2c551.698%2c291.985%2c566.29%2c292.046' fill='rgba(215%2c 215%2c 215%2c 0.89)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M1492.761%2c482.558C1524.43%2c480.978%2c1542.318%2c449.997%2c1558.103%2c422.498C1573.787%2c395.175%2c1591.196%2c364.282%2c1576.717%2c336.301C1561.442%2c306.783%2c1525.997%2c296.288%2c1492.761%2c296.227C1459.4%2c296.166%2c1425.062%2c307.166%2c1408.271%2c335.993C1391.388%2c364.978%2c1398.303%2c400.576%2c1415.055%2c429.636C1431.83%2c458.736%2c1459.214%2c484.232%2c1492.761%2c482.558' fill='rgba(215%2c 215%2c 215%2c 0.89)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1418.282%2c206.757C1427.609%2c206.81%2c1437.012%2c203.278%2c1441.697%2c195.213C1446.401%2c187.116%2c1445.251%2c176.923%2c1440.188%2c169.046C1435.515%2c161.775%2c1426.924%2c158.901%2c1418.282%2c158.78C1409.375%2c158.655%2c1400.059%2c160.896%2c1395.285%2c168.417C1390.205%2c176.42%2c1390.445%2c186.821%2c1395.321%2c194.95C1400.066%2c202.86%2c1409.058%2c206.705%2c1418.282%2c206.757' fill='rgba(215%2c 215%2c 215%2c 0.89)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M288.157%2c178.43C316.993%2c179.598%2c346.628%2c169.513%2c361.632%2c144.86C377.162%2c119.342%2c376.286%2c85.954%2c359.457%2c61.274C344.305%2c39.052%2c315.052%2c37.354%2c288.157%2c37.106C260.623%2c36.852%2c229.136%2c36.588%2c214.547%2c59.94C199.411%2c84.167%2c209.238%2c115.035%2c224.312%2c139.3C238.43%2c162.025%2c261.426%2c177.348%2c288.157%2c178.43' fill='rgba(215%2c 215%2c 215%2c 0.89)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1495.756%2c137.511C1519.488%2c136.748%2c1535.202%2c116.081%2c1547.444%2c95.736C1560.238%2c74.472%2c1573.194%2c49.81%2c1561.785%2c27.772C1549.742%2c4.51%2c1521.888%2c-5.915%2c1495.756%2c-4.102C1472.401%2c-2.482%2c1455.316%2c15.516%2c1443.892%2c35.95C1432.808%2c55.777%2c1427.643%2c79.024%2c1437.974%2c99.254C1449.234%2c121.303%2c1471.011%2c138.306%2c1495.756%2c137.511' fill='rgba(215%2c 215%2c 215%2c 0.89)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M776.999%2c238.316C794.867%2c238.855%2c812.158%2c230.022%2c820.995%2c214.483C829.741%2c199.104%2c827.677%2c180.251%2c818.682%2c165.016C809.849%2c150.055%2c794.352%2c139.106%2c776.999%2c139.967C760.789%2c140.772%2c749.742%2c154.609%2c741.916%2c168.827C734.444%2c182.402%2c730.39%2c198.128%2c737.373%2c211.96C745.036%2c227.138%2c760.004%2c237.803%2c776.999%2c238.316' fill='rgba(215%2c 215%2c 215%2c 0.89)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M34.501%2c170.99C54.263%2c170.972%2c72.755%2c161.597%2c83.252%2c144.853C94.47%2c126.959%2c98.393%2c104.206%2c87.834%2c85.915C77.274%2c67.622%2c55.601%2c61.358%2c34.501%2c60.401C11.076%2c59.339%2c-16.185%2c60.367%2c-27.927%2c80.664C-39.678%2c100.977%2c-27.748%2c125.638%2c-14.406%2c144.943C-3.151%2c161.228%2c14.705%2c171.008%2c34.501%2c170.99' fill='rgba(215%2c 215%2c 215%2c 0.89)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M838.519%2c319.741C859.751%2c319.115%2c875.288%2c301.666%2c885.144%2c282.85C894.194%2c265.572%2c896.739%2c244.828%2c886.431%2c228.269C876.605%2c212.485%2c857.11%2c207.685%2c838.519%2c207.953C820.491%2c208.213%2c802.91%2c214.594%2c792.938%2c229.615C781.782%2c246.42%2c777.773%2c267.747%2c786.876%2c285.747C796.845%2c305.458%2c816.44%2c320.392%2c838.519%2c319.741' fill='rgba(215%2c 215%2c 215%2c 0.89)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M50.891%2c147.817C70.024%2c148.078%2c89.342%2c139.413%2c98.011%2c122.354C106.093%2c106.45%2c97.657%2c88.749%2c88.771%2c73.28C79.837%2c57.726%2c68.825%2c39.983%2c50.891%2c40.326C33.257%2c40.664%2c24.019%2c59.271%2c15.443%2c74.683C7.212%2c89.474%2c-1.438%2c105.867%2c5.945%2c121.099C14.093%2c137.909%2c32.212%2c147.563%2c50.891%2c147.817' fill='rgba(215%2c 215%2c 215%2c 0.89)' class='triangle-float1'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1956'%3e%3crect width='1506' height='378' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
+} */
+.latter2 {
+  font-size: 17px;
+  line-height: 30px;
+}
+.latter1 {
+  font-size: 17px;
+}
+.latter3::-webkit-input-placeholder {
+  font-size: 14px;
+}
+.latter4 h5 {
+  font-size: 16px;
+  border-bottom: 3px solid #efefef;
+  display: inline-flex;
+}
+.latter4 li a {
+  font-size: 14px;
+  color: rgb(87, 87, 87);
+  transition: all 0.4s ease;
+}
+.latter4 li a:hover {
+  color: rgb(167, 165, 165);
+  margin-right: 6px;
+  
+}
+.information div p,
+a {
+  font-size: 14px;
+  margin-right: 10px !important;
+}
+.information div i.headset {
+  font-size: 33px;
+  transition: all 0.7s ease;
+}
+
+.inform-add p {
+  font-size: 14px !important;
+  margin-left: 15px !important ;
+}
+.inform-add a {
+  color: lightgray;
+  font-size: 23px !important;
+}
+.nav-link .Twitter {
+  animation: twitter 1s 5ms cubic-bezier(0.645, 0.045, 0.355, 1) infinite
+    forwards;
+}
+@keyframes twitter {
+  50% {
+    color: transparent;
+  }
+  100% {
+    color: rgb(3, 161, 253);
+  }
+}
+.nav-link .Facebook {
+  animation: facebook 1s 0.1s cubic-bezier(0.645, 0.045, 0.355, 1) infinite
+    forwards;
+}
+@keyframes facebook {
+  50% {
+    color: transparent;
+  }
+  100% {
+    color: rgb(27, 103, 148);
+  }
+}
+.nav-link .Instagram {
+  animation: instagram 1s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1) infinite
+    forwards;
+}
+@keyframes instagram {
+  50% {
+    color: transparent;
+  }
+  100% {
+    color: #ff6403;
+  }
+}
+.nav-link .Telegram {
+  animation: telegram 1s 0.4s cubic-bezier(0.645, 0.045, 0.355, 1) infinite
+    forwards;
+}
+@keyframes telegram {
+  70% {
+    color: transparent;
+  }
+  100% {
+    color: #1e95d0;
+  }
+}
+.nav-link .Facebook:hover {
+  animation: none;
+  color: rgb(27, 103, 148);
+}
+.nav-link,
+.Instagram:hover {
+  animation: none;
+  color: #ff6403;
+}
+.nav-link,
+.Telegram:hover {
+  animation: none;
+  color: #1e95d0;
+}
+.nav-link,
+.Twitter:hover {
+  animation: none;
+  color: rgb(3, 161, 253);
+}
+.telle span:nth-child(1) {
+  animation: tel 1s 0.1s ease infinite;
+}
+.telle span:nth-child(2) {
+  animation: tel 1s 0.2s ease infinite;
+}
+.telle span:nth-child(3) {
+  animation: tel 1s 0.3s ease infinite;
+}
+.telle span:nth-child(4) {
+  animation: tel 1s 0.4s ease infinite;
+}
+.telle span:nth-child(5) {
+  animation: tel 1s 0.5s ease infinite;
+}
+.telle span:nth-child(6) {
+  animation: tel 1s 0.6s ease infinite;
+}
+.telle span:nth-child(7) {
+  animation: tel 1s 0.7s ease infinite;
+}
+.telle span:nth-child(8) {
+  animation: tel 1s 0.8s ease infinite;
+}
+.telle span:nth-child(9) {
+  animation: tel 1s 0.9s ease infinite;
+}
+@keyframes tel {
+  100% {
+    color: goldenrod;
+  }
+}
+.telle span:hover {
+  animation: none;
+  color: goldenrod;
+}
+.icon-anime a i {
+  margin-right: -15px;
+}
+@media (max-width: 992px) and (min-width: 770px) {
+  .icon-anime a {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 438px){
+  .icon-anime a {
+    padding-right: 5px !important;
+  }
+}
+.information-custom-margin{
+  margin-right: -24px;
+}

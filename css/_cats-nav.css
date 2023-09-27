@@ -1,0 +1,36 @@
+.fixed-img {
+  width: 70px;
+}
+.custom-size-img {
+  width: 73px;
+}
+.custom-img-single {
+  width: 56px;
+}
+.custom-desc {
+  font-size: 13px;
+}
+.cat-hover {
+  transition: 0.4s ease;
+}
+.cat-hover p {
+  white-space: nowrap;
+}
+.cat-hover:hover {
+  z-index: 1;
+  box-shadow: 0 0 7px 2px lightgray;
+}
+@media (min-width: 770px) and (max-width: 1200px) {
+  .cat-hover {
+    flex: 0 0 30% !important;
+    max-width: 30% !important;
+  }
+  .custom-cats-mr {
+    margin-right: 70px !important;
+  }
+}
+@media (min-width: 770px) and (max-width: 992px) {
+  .custom-cats-mr {
+    margin-left: 55px !important;
+  }
+}

@@ -1,0 +1,39 @@
+.labtop-border{
+    font-size: 20px;
+    right:25px;
+    top: 5px;
+    position: relative;
+  
+  }
+  
+  .labtop-border p{
+    color: black;
+    
+  }
+  
+  
+  .labtop-border ::after{
+    position:absolute;
+    content: '';
+    border-radius: 0;
+    top: 30px;
+    right: -5px;
+    animation: bord222 1s cubic-bezier(0.39, 0.575, 0.565, 1) infinite  ;
+  }
+   
+@keyframes bord222 {
+    0%{
+      width: 4px;
+    height: 2px;
+    background-color: red;
+    }
+    100%{
+      width: 250px;
+    }
+}
+.pro-img2{
+    width: 150px !important;
+}
+.pro-img3{
+    width: 175px !important;
+}

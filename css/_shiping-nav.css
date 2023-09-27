@@ -1,0 +1,46 @@
+.custom-shiping img{
+    width: 37px;
+    height:35px;
+    margin:  2px 0 0 0;
+}
+.custom-shiping p{
+    font-size:11px;
+    margin-top: 3px !important;
+    
+}
+.custom-shiping div{
+    padding: 5px;
+    border-radius: 3px;
+    
+}
+@media  (min-width:1200px){
+    .custom-shiping-lg-margin{
+        margin-right: 20px !important;
+    }
+}
+@media (min-width:770px) and (max-width:992px){
+    .custom-shiping-md{
+        max-width: 31.366667% !important;
+        flex:0 0 31.366667% !important ;
+    }
+    .custom-shiping img{
+        margin:-6px 0 0 0 ;
+    }
+}
+
+@media  (max-width:770px){
+    .custom-shiping-sm-margin{
+        margin-bottom:-45px !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    
+}
+
+@media  (max-width:992px){
+    .custom-shiping-sm-margin{
+        margin-bottom:-45px !important;
+    }
+}

@@ -1,0 +1,219 @@
+.body-product p{
+    text-align: justify;
+}
+.product-detail span{
+  
+    cursor: pointer;
+}
+.product-detail .fa-heart:hover{
+    animation:heart 1s  linear infinite ;
+    border-radius: 50%;
+    
+
+}
+@keyframes heart {
+    0% {
+        transform:scaley(1);
+      }
+      80% {
+        transform: scaley(1.3);
+      }
+}
+.product-detail .fa-bell:hover{
+    animation:bell .3s linear infinite alternate;
+    color: gold!important;
+}
+@keyframes bell {
+    0%{
+        transform:rotatez(45deg);
+    }
+    100%{
+        transform: rotatez(-45deg);
+        
+    }
+    
+}
+.category{
+    font-weight: bold;
+}
+.category ~p{
+    font-size: 14px;
+}
+.custom-dot li a{
+    font-size:13px ;
+}
+.custom-dot li a i {
+    font-size:12px ;
+}
+.custom-bord-top .nav-link.active,.custom-bord-top.nav-link {
+border-top: 3px solid red !important;
+
+}
+.custom-bord-top .nav-link{
+    font-size: 14px;
+}
+.desk-detail{
+    line-height: 35px;
+    font-size: 15px;
+    text-align: justify;
+    background-color: #fbfbfb;
+}
+.custom-color{
+    background-color: #fbfbfb;
+}
+.custom-color div p{
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+}
+.desk-detail1{
+    line-height: 35px;
+    font-size: 15px;
+    text-align: justify;
+}
+.custom-img-fluid-product{
+    width: 400px;
+    height:350px ;
+}
+.border-dot li{
+    border-right: 1px solid gray;
+    padding-right: 20px;
+    line-height: 32px;
+    color: rgb(45, 45, 45);
+    text-align: justify;
+}
+.border-dot li i{
+    right:-8px;
+    top:-7px;
+    color:gray;
+}
+.border-dot li .wraper-img{
+    margin:0 auto !important;
+    max-width: 400px!important;
+}
+.custom-details-technical  li .key{
+    background-color: #f9f9f9;
+    font-size: 15px;
+    flex: 0 0 20%;
+    height: 40px;
+}
+.custom-details-technical  li .value{
+    background-color: #f9f9f9;
+    font-size: 15px;
+    flex: 0 0 79%;
+    max-height: 180px;
+} 
+.custom-nav-tab-pan{
+    margin-top: 120px;
+}
+.custome-fontsize{
+    font-size: 17px;
+}
+.custom-button{
+    margin-top:40px ;
+    border: 0;
+    overflow: hidden !important;
+  
+}
+.custom-button a{
+    position: relative;
+    overflow: hidden ;
+    margin: 0 auto !important;
+    white-space: nowrap;
+    padding: 12px;
+   
+}
+.custom-button a .fa-sign-in-alt{
+    vertical-align: -2px;
+}
+.custom-button a span:nth-child(1){
+    width: 100%;
+    height: 2px;
+    background:linear-gradient(to right,skyblue,rgb(20, 20, 229));
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: span1 3s 1.5s linear infinite;
+    
+}
+@keyframes span1 {
+    0%{
+        transform: translateX(-100%);
+    }
+    100%{
+        transform: translateX(100%);
+    }
+}
+.custom-button span:nth-child(2){
+    width: 2px;
+    height: 100%;
+    background:linear-gradient(to bottom,skyblue,rgb(20, 20, 229));
+    position: absolute;
+    top: 0;
+    right: 0;
+    animation: span2 3s linear infinite;
+}
+@keyframes span2 {
+    0%{
+        transform: translatey(-100%);
+    }
+    100%{
+        transform: translatey(100%);
+    }
+}
+.custom-button span:nth-child(3){
+    width: 100%;
+    height: 2px;
+    background:linear-gradient(to left,skyblue,rgb(20, 20, 229));
+    position: absolute;
+    bottom:0 ;
+    right: 0;
+    animation: span3 3s 1.5s linear infinite;
+}
+@keyframes span3 {
+    0%{
+        transform: translateX(100%);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+}
+.custom-button span:nth-child(4){
+    width: 2px;
+    height: 100%;
+    background:linear-gradient(to top,skyblue,rgb(20, 20, 229));
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    animation: span4 3s linear infinite;
+}
+@keyframes span4 {
+    0%{
+        transform: translatey(100%);
+    }
+    100%{
+        transform: translatey(-100%);
+    }
+}
+.custom-margin-left{
+    margin-right:-12px ;
+}
+.custom-details-more{
+
+
+  font-size: 14px;
+ 
+}
+.custom-footer-single-page{
+    margin-top: 150px !important;
+}
+.zoom-mousemove{
+    border: none !important;
+   
+}
+@media (max-width:735px) {
+.custome-zoomy{
+margin-bottom:210px !important ;
+}
+
+}

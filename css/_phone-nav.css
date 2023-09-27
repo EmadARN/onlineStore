@@ -1,0 +1,37 @@
+
+.phone-border{
+    font-size: 20px;
+    right:25px;
+    top: 5px;
+    position: relative;
+  
+  }
+  
+  .phone-border p{
+    color: black;
+    
+  }
+  
+  
+  .phone-border ::after{
+    position:absolute;
+    content: '';
+    border-radius: 0;
+    top: 30px;
+    right: -5px;
+    animation: bord2222 1s cubic-bezier(0.39, 0.575, 0.565, 1) infinite  ;
+  }
+  
+    
+  @keyframes bord2222 {
+    0%{
+      width: 4px;
+    height: 2px;
+    background-color: red;
+    }
+    100%{
+      width: 100px;
+    }
+    
+    
+  }

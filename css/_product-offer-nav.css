@@ -1,0 +1,59 @@
+.pro-img {
+  max-width: 150px;
+  margin-top: 8px;
+}
+.custom-card {
+  border: none !important;
+  border-radius: 0 !important;
+}
+.custom-card:hover {
+  z-index: 1;
+  box-shadow: 0 0 7px 2px lightgray;
+}
+.offer-p-custom {
+  white-space: nowrap;
+}
+@media (max-width: 992px) {
+  .offer-p-custom {
+    white-space: normal;
+  }
+  .offer-p-custom1{
+    white-space: nowrap;
+  }
+}
+.offer-titel1{
+  font-size: 20px;
+  right:25px;
+  top: 5px;
+  position: relative;
+
+}
+
+.offer-titel1 p{
+  color: black;
+  
+}
+
+
+.offer-titel1 ::after{
+  position:absolute;
+  content: '';
+  border-radius: 0;
+  top: 30px;
+  right: -5px;
+  animation: bord22 1s cubic-bezier(0.39, 0.575, 0.565, 1) infinite  ;
+}
+
+  
+@keyframes bord22 {
+  0%{
+    width: 4px;
+  height: 2px;
+  background-color: red;
+  }
+  100%{
+    width: 350px;
+  }
+
+  
+}

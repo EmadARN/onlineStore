@@ -1,0 +1,104 @@
+@import url(asset/css/_top-nav.css);
+@import url(asset/css/_slider-nav.css);
+@import url(asset/css/_shiping-nav.css);
+@import url(asset/css/_ads-nav.css);
+@import url(asset/css/_cats-nav.css);
+@import url(asset/css/_special-offer-navs.css);
+@import url(asset/css/_product-offer-nav.css);
+@import url(asset/css/_brand-nav.css);
+@import url(asset/css/_phone-nav.css);
+@import url(asset/css/_labtop-nav.css);
+@import url(asset/css/_banner2.css);
+@import url(asset/css/_Footer.css);
+@import url(asset/css/_login-form.css);
+@import url(asset/css/product-nav.css);
+@import url(asset/css/zoomy.css);
+@font-face {
+  font-family: vazir;
+  src: url(asset/Font/vazir-font-v16.1.0/Vazir-Medium.eot) format("eot"),
+    url(asset/Font/vazir-font-v16.1.0/Vazir-Medium.woff) format("woff"),
+    url(asset/Font/vazir-font-v16.1.0/Vazir-Medium.woff2) format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+*,
+body {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: vazir;
+}
+a {
+  text-decoration: none;
+}
+ul,
+li {
+  list-style: none;
+}
+p {
+  margin: 0 !important;
+}
+
+@media (max-width: 767px) {
+  .mt-csm-0 {
+    margin-top: 1.5rem !important;
+  }
+}
+@media (max-width: 987px) {
+  .mt-csm-1 {
+    margin-top: 1.5rem !important;
+  }
+}
+@media (max-width: 991px) {
+  .cw-100 {
+    width: 100% !important;
+  }
+}
+/* { 
+از مدیا کوئری بالا استفاده کردم چون وقتی به نوبار عرض صد درصد میدادم نو رو بهم میریخت بخاطر همین کاستوم کردم
+}*/
+html {
+  scroll-behavior: smooth;
+}
+/* jquery مشکل داره و نو کار نمیکند بخاطر همین دستی اینجا فراخانی کردم */
+.owl-carousel .owl-nav {
+  display: block !important;
+}
+.owl-carousel .owl-rtl .owl-loaded .owl-drag {
+  position: relative !important;
+}
+.owl-nav span {
+  font-size: 40px !important;
+  box-shadow: 0 0 5px 4px #efefef;
+  color: lightgray;
+  width: 20px;
+  display: block;
+}
+.owl-nav .owl-prev {
+  position: absolute !important;
+  bottom: 35%;
+  right: 5px;
+}
+.owl-nav .owl-next {
+  position: absolute !important;
+  left: 5px;
+  bottom: 35%;
+}
+@media (max-width: 769px) {
+  .owl-nav span {
+    display: none;
+  }
+}
+.margin-top-crasul1 {
+  margin-top: 200px !important;
+}
+
+.logo-custom img {
+  width: 45px;
+  height: 40px;
+}
+.logo-custom {
+  right: -40px;
+  top: 4px;
+}
+
